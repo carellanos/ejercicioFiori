@@ -7,4 +7,4 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
 ## Comenzamos
 * Ejercicio 1 - Crea tu aplicacion Sap Fiori
   
-   * [Exercise 1.1 - Crear una aplicación SAP Fiori utilizando SAP Business Application Studio ](../ejercicio/ej1/README.md)
+   * [Exercise 1.1 - Crear una aplicación SAP Fiori utilizando SAP Business Application Studio ](../Ejercicio/ej1/README.md)
