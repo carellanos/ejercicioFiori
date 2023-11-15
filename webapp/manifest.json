@@ -28,7 +28,16 @@
           }
         }
       }
-    }
+    },
+    "dataSources": {
+			"certificationsRemote": {
+				"uri": "V2/Northwind/Northwind.svc",
+				"type": "OData",
+        "settings": {
+					"odataVersion": "2.0"
+				}
+			}
+		}
   },
   "sap.ui": {
     "technology": "UI5",
@@ -71,6 +80,13 @@
         "settings": {
           "bundleName": "ejerfiori.certificaciones1.i18n.i18n"
         }
+      },
+      "certifications1": {
+				"dataSource": "certificationsRemote"
+			},
+      "certifications":{
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "https://89c053e7-13cc-45e8-9262-f097b4178f66.mock.pstmn.io/mock/certifications"
       }
     },
     "resources": {
