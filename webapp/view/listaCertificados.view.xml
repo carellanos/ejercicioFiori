@@ -1,0 +1,31 @@
+<mvc:View controllerName="ejerfiori.certificaciones1.controller.listaCertificados"
+    xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <OverflowToolbar id="OverflowToolbar1">
+                <ToolbarSpacer id="ToolbarSpacer1"/>
+                <SearchField id="SearchField1" width="30%" class="sapUiSmallMargin" placeholder="Buscar certificado" liveChange=".onSearch"/>
+                <OverflowToolbarButton id="OverflowToolbarButton1" tooltip="Sort" type="Transparent" text="Sort" icon="sap-icon://sort" press="onSort"/>
+            </OverflowToolbar>
+        <List mode="None" items="{path: 'certifications>/'}" id="List1" noDataText="No se encontraron Certificaciones">
+            <CustomListItem type="Navigation" id="item0">
+                <HBox renderType= "List" id="HBox1">
+                    <core:Icon id="Core1" size="2rem" src="sap-icon://document" class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom"/>
+                    <VBox class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom" renderType= "List" id="VBox1" >
+                    <MenuButton id="MenuButton1" text="{certifications>NombCert}" buttonMode="Split" useDefaultActionOnly="true">
+                        <menu>
+                            <Menu id="Menu1">
+                                <MenuItem id="MenuItem1" text="PDF" icon="sap-icon://pdf-attachment" press="downloadFile"/>
+                                <MenuItem id="MenuItem2" text="JPG" icon="sap-icon://picture" press="onPress" />
+                            </Menu>
+                        </menu>
+                    </MenuButton>
+                    <Label text="{certifications>FechaCert}" id="Label1"/>                        
+                    </VBox>
+                </HBox>
+            </CustomListItem>
+        </List>
+        </content>
+    </Page>
+</mvc:View>
