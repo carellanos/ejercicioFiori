@@ -1,36 +1,10 @@
-## Application Details
-|               |
-| ------------- |
-|**Generation Date and Time**<br>Wed Nov 15 2023 13:42:47 GMT+0000 (Coordinated Universal Time)|
-|**App Generator**<br>@sap/generator-fiori-freestyle|
-|**App Generator Version**<br>1.11.4|
-|**Generation Platform**<br>SAP Business Application Studio|
-|**Template Used**<br>simple|
-|**Service Type**<br>None|
-|**Service URL**<br>N/A
-|**Module Name**<br>certificaciones1|
-|**Application Title**<br>Certificaciones|
-|**Namespace**<br>ejerfiori|
-|**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.120.1|
-|**Enable Code Assist Libraries**<br>False|
-|**Enable TypeScript**<br>False|
-|**Add Eslint configuration**<br>False|
+## Descripcion  
+Este repositorio contiene el paso a paso para realizar una lista de certificados que se pueden descargar en PDF y en JPG. Es un ejercicio que demuestra el uso de las librerías de SAPUI5 SDK. Tambien cuenta con el proyecto final el cual puede descargar o clonar en su espacio de trabajo. 
 
-## certificaciones1
+## Requisitos
+Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe registrarse para obtener su propia cuenta de prueba gratuita. Puede registrarse en una cuenta de prueba utilizando este enlace: [Crear una cuenta de prueba](https://developers.sap.com/tutorials/hcp-create-trial-account.html).
 
-Aplicacion Fiori 
-
-### Starting the generated app
-
--   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  In order to launch the generated app, simply run the following from the generated app root folder:
-
-```
-    npm start
-```
-
-#### Pre-requisites:
-
-1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
-
-
+## Comenzamos
+* Ejercicio 1 - Crea tu aplicacion Sap Fiori
+  
+   * [Exercise 1.1 - Crear una aplicación SAP Fiori utilizando SAP Business Application Studio ](../ejercicio/ej1/README.md)
