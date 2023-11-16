@@ -8,13 +8,13 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
 * 1 - Crea tu aplicacion Sap Fiori.
   
    * [1.1 - Crear una aplicación SAP Fiori utilizando SAP Business Application Studio](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej1/README.md).
-
-* 2 - Agregue configuracion para consumir un Servicio OData remoto.
-
-   * [2.1 -Configuracion](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej2/README.md).
-
-     [En caso de duda puede consultar esta documentacion](https://sapui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109).
  
   * 2 - Agregue componentes SAPUI5 SDK para la UI.
   
    * [Exercise 1.1 - Crear una aplicación SAP Fiori utilizando SAP Business Application Studio](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej1/README.md).
+
+* 3 - Agregue configuracion para consumir un Servicio OData remoto.
+
+   * [3.1 -Configuracion](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej2/README.md).
+
+     [En caso de duda puede consultar esta documentacion](https://sapui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109).
