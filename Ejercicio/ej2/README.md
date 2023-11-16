@@ -2,24 +2,34 @@
 
 <br>
 
-### Paso 1: Abr una nueva terminal 
+### Paso 1: Abrir una nueva terminal en la carpeta raíz de su aplicación
 
-1. En la izquierda Explorer panel, desplegar el menu principal.
+1. En la izquierda *Explorer panel*, desplegar el menu principal. Seleccione *Terminal* haga click en *New Terminal*.
 
    ![Open new terminal](img/n01-open-new-terminal.png)
    
 
-1. En la pestañas *Get Started* click **Start from template**.
+2. Instale una nueva dependencia de desarrollo en su archivo package.json. Agregue las siguientes lineas en la *Terminal*:  **npm i -D ui5-middleware-simpleproxy** y presione la tecla enter. 
 
-   ![Start from Template](img/n01-create-app-frrom-template.png)
+   ![Install dependency](img/n02-install-dependency-simpleproxy.png)
 
-2. Seleccione  **SAP Fiori Application**, y click **Start**.
+   ![Install dependency2](img/n03-install-dependency-simpleproxy.png)
 
-   ![SAP Fiori](img/n02-choose-template-type.png)
+### Paso 2: Abrir el archivo ui5.yaml y agregar la configuracion de proxi
 
-3. En la *Template Selection* screen, seleccione *Application Type* **SAPUI5 freestyle** en el menú desplegable
+1. En la izquierda *Explorer panel*, haga clic en **ui5.yaml**.
+   
+   ![Open yaml ui5](img/n04-open-ui5-yaml-file.png)
 
-   ![SAPUI5 Freestyle](img/n03-choose-app-type.png)
+2. Agregue la siguiente configuracion de proxi. Debe quedar como se observa en la imagen. 
+   
+   - name: ui5-middleware-simpleproxy
+      afterMiddleware: compression
+      mountPath: /V2
+      configuration:
+        baseUri: "https://services.odata.org"
+     
+   ![Add proxi configuration ](img/n05-proxy-configuration.png)
    
 4. Para *Data Source and Service Selection*, seleccione **None** del menú desplegable, ya que para esta sencilla aplicación no consumirá ningún dato de un sistema backend. A continuación, haga clic en **Next**.
 
