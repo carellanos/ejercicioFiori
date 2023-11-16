@@ -1,6 +1,6 @@
 # Pasos para consumir un servicio OData remoto
 
-Se va utilizar el servicio Northwind OData disponible públicamente ubicado en https://services.odata.org/V2/Northwind/Northwind.svc/
+Se va utilizar el servicio Northwind OData disponible públicamente en https://services.odata.org/V2/Northwind/Northwind.svc/
 <br>
 
 ### Paso 1: Abra una nueva terminal en la carpeta raíz de su aplicación
@@ -39,5 +39,3 @@ Se va utilizar el servicio Northwind OData disponible públicamente ubicado en h
 2. Ubicar la seccion *sapui5* y en *models* agregar el modelo con referencia a la fuente de datos.
 
    ![Data Source](img/n07-add-a-model.png)
-
- 
