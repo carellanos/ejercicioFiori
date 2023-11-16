@@ -1,12 +1,13 @@
-# Ejercicio 1.1 - Crear una Aplicación SAP Fiori Utilizando SAP Business Application Studi
-
-En este ejercicio, desarrollarás una sencilla aplicación SAPUI5 de estilo libre, siguiendo las directrices de diseño de SAP Fiori.nes. 
+# Pasos para consumir un servicio OData remoto
 
 <br>
 
-### Paso 1: Crear una aplicación SAPUI5 a partir de una plantilla
+### Paso 1: Abr una nueva terminal 
 
-Utilizando el asistente de creación de aplicaciones, en cualquier momento puede hacer clic en el botón Atrás para volver al paso anterior, o hacer clic en un paso específico del asistente para volver a ese paso.
+1. En la izquierda Explorer panel, desplegar el menu principal.
+
+   ![Open new terminal](img/n01-open-new-terminal.png)
+   
 
 1. En la pestañas *Get Started* click **Start from template**.
 
