@@ -13,7 +13,7 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
 
    * [2.1 -Configuracion ](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej2/README.md).
 
-     [Puede consultar esta documentacion para el paso anterior](https://sapui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109).
+     [En caso de duda puede consultar esta documentacion](https://sapui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109).
  
   * 2 - Agregar componentes SAPUI5 SDK para la UI
   
