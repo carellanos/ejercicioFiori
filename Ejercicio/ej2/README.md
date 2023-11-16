@@ -35,9 +35,10 @@
 
    ![Data Source](img/n06-data-source-configuration.png)
 
-5. En el siguiente paso, puede elegir un nombre para la vista UI5 que se generará por defecto. Usted puede simplemente mantener View1 aquí y haga clic en **Next**.
+2. Ubicar la seccion *sapui5* y en *models* agregar el modelo con referencia a la fuente de datos.
 
-   ![View name](img/n05-keep-view-name.png)
+   ![Data Source](img/n07-add-a-model.png)
+
 
 6. Seleccione lo siguiente **Project Attributes**, y haga click en **Next**.
 
