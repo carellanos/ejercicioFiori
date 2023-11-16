@@ -13,7 +13,7 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
   
    * [2.1 Crear un mock server usandp postman]().
      
-     En caso de duda puede consultar este [tutorial](https://www.youtube.com/watch?v=ogGpYtChY8w).
+     En caso de duda puede consultar este  [tutorial](https://www.youtube.com/watch?v=ogGpYtChY8w).
  
 * 2 - Agregue componentes a la vista y funciones al controlador
   
