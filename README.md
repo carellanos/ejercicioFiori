@@ -9,7 +9,7 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
   
    * [1.1 - Crear una aplicación SAP Fiori utilizando SAP Business Application Studio](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej1/README.md).
  
-  * 2 - Agregue componentes SAPUI5 SDK para la UI.
+* 2 - Agregue componentes SAPUI5 SDK para la UI.
   
    * [Exercise 1.1 - Crear una aplicación SAP Fiori utilizando SAP Business Application Studio](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej1/README.md).
 
