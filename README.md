@@ -1,5 +1,5 @@
 ## Descripcion  
-Este repositorio contiene el paso a paso para realizar una lista de certificados que se pueden descargar en PDF y en JPG. Es un ejercicio que demuestra el uso de las librerías de SAPUI5 SDK. Tambien cuenta con el proyecto final el cual puede descargar o clonar en su espacio de trabajo. 
+Este repositorio contiene el proyecto completo lo puede descargar o clonar en su espacio de trabajo. Es un ejercicio que demuestra el uso de las librerías de SAPUI5 SDK en un proyecto de Sap Fiori. El resultado final muestra una interfaz de usuario con una lista de certificados, estos se pueden descargar en PDF y en JPG. Aqui podra encontrar una lista de pasos con los cuales puede hacer este ejercicio desde cero.
 
 ## Requisitos
 Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe registrarse para obtener su propia cuenta de prueba gratuita. Puede registrarse en una cuenta de prueba utilizando este enlace: [Crear una cuenta de prueba](https://developers.sap.com/tutorials/hcp-create-trial-account.html).
