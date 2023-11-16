@@ -21,27 +21,19 @@
    
    ![Open yaml ui5](img/n04-open-ui5-yaml-file.png)
 
-2. Agregue la siguiente configuracion de proxi debajo de la ultima linea *ui5Theme: sap_horizon*. Debe quedar como se observa en la imagen. 
+2. Agregue la siguiente configuracion de proxi debajo de la ultima linea *ui5Theme: sap_horizon*.
    
    ![Add proxi configuration 2 ](img/n05-proxy-config-cod.png)
      
    ![Add proxi configuration ](img/n05-proxy-configuration.png)
 
-### Paso 3: Agregar configuracion de la fuente de datos y un modelo dentro del manifest.json.
+### Paso 3: Agregar configuracion de fuente de datos y modelo dentro del manifest.json.
    
 1.  En la izquierda *Explorer panel*, desplegar la carpeta **webapp** seleccione el archivo **manifest.json**. Ubicar la seccion de *sap.app* y agregue la siguiente configuración de fuente de datos.
+   
+   ![Data Source](img/n08-data-source.png)
 
-     "dataSources": {
-			"certificationsRemote": {
-				"uri": "V2/Northwind/Northwind.svc",
-				"type": "OData",
-        "settings": {
-					"odataVersion": "2.0"
-				}
-			}
-		}
-
-   ![Select Data Source](img/n04-select-datasource-none.png)
+   ![Data Source](img/n06-data-source-configuration.png)
 
 5. En el siguiente paso, puede elegir un nombre para la vista UI5 que se generará por defecto. Usted puede simplemente mantener View1 aquí y haga clic en **Next**.
 
