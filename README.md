@@ -11,7 +11,7 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
 
 * 2 - Agregar configuracion para consumir un Servicio OData remoto.
 
-   * [2.1 -Pasos para consumir un servicio OData remoto]().
+   * [2.1 -Pasos para consumir un servicio OData remoto](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej2/README.md).
 
      [Puede consultar esta documentacion para el paso anterior](https://sapui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109).
  
