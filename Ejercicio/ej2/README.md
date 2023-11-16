@@ -2,9 +2,9 @@
 
 <br>
 
-### Paso 1: Abrir una nueva terminal en la carpeta raíz de su aplicación
+### Paso 1: Abra una nueva terminal en la carpeta raíz de su aplicación
 
-1. En la izquierda *Explorer panel*, desplegar el menu principal. Seleccione *Terminal* haga click en *New Terminal*.
+1. En la izquierda *Explorer panel*, desplegue el menu principal. Seleccione *Terminal* haga click en *New Terminal*.
 
    ![Open new terminal](img/n01-open-new-terminal.png)
    
@@ -15,7 +15,7 @@
 
    ![Install dependency2](img/n03-install-dependency-simpleproxy.png)
 
-### Paso 2: Abrir el archivo ui5.yaml y agregar la configuracion de proxi
+### Paso 2: Abra el archivo ui5.yaml y agregar la configuracion de proxi
 
 1. En la izquierda *Explorer panel*, haga clic en **ui5.yaml**.
    
@@ -27,9 +27,9 @@
      
    ![Add proxi configuration ](img/n05-proxy-configuration.png)
 
-### Paso 3: Agregar configuracion de fuente de datos y modelo dentro del manifest.json.
+### Paso 3: Agregue configuracion de fuente de datos y modelo dentro del manifest.json.
    
-1.  En la izquierda *Explorer panel*, desplegar la carpeta **webapp** seleccione el archivo **manifest.json**. Ubicar la seccion de *sap.app* y agregue la siguiente configuración de fuente de datos.
+1.  En la izquierda *Explorer panel*, despliegue la carpeta **webapp** seleccione el archivo **manifest.json**. Ubicar la seccion de *sap.app* y agregue la siguiente configuración de fuente de datos.
    
    ![Data Source](img/n08-data-source.png)
 
@@ -39,61 +39,4 @@
 
    ![Data Source](img/n07-add-a-model.png)
 
-
-6. Seleccione lo siguiente **Project Attributes**, y haga click en **Next**.
-
-    | Step | Parameter | Value |
-    |:-----|:----------|:------|
-    | A | Module name | **`certificaciones1`** |
-    | B | Application title | **Certificaciones** |
-    | C | Application namespace | **ejerfiori** |
-    | D | Description | **Aplicacion Fiori** |
-    | E | Project folder path | **`/home/user/projects`** (default)|
-    | F | Minimum SAPUI5 version | **1.102.1** (default) |
-    | G | Add deployment configuration | **Yes**|
-    | H | Add FLP configuration | **Yes** |
-    | I | Configure advanced options | **No** (default) |
-
-   ![Launchpad configuration](img/n08-flp-config.png)
-    
-7. Para **Deployment Configuration**, seleccione **Cloud Foundry** del menú desplegable de destino y deje que el *Destination Name* como **None** por defecto. Click **Next**. Seleccione el **Yes** botón de radio para la última entrada `Add Application to managed application router?`
-
-   ![Deployment Settings](img/n07-deployment-config.png)
-
-8. Finalmente, en la **Fiori Launchpad Configuration** pantalla, seleccione lo siguiente y haga click en **Finish**. 
-
-    | Step | Parameter | Value |
-    |:-----|:----------|:------|
-    | A | Semantic Object | **helloworld** |
-    | B | Action | **display** |
-    | B | Title | **My Hello World** |
-    | B | Subtitle (optional) | **Custom UI5 App** |
-
-    ![Launchpad configuration](img/n08-flp-config.png)
-
-9. Espere a que finalice la instalación de las dependencias del proyecto. Aparecerá una notificación de que "The project has been generated" en la parte inferior derecha de la pantalla. Aparecerá una ventana emergente como la que se muestra a continuación. Seleccione **open folder** para ver la estructura de carpetas del proyecto generado en el área de trabajo.
-    
-    ![application generated](img/n09-open-folder-in-workspace.png)
-
-
-<br>
-
-### Paso 2: Ejecutar la aplicación localmente en el espacio de desarrollo
-
-Para probar su aplicación, ahora puede ejecutarla localmente en SAP Business Application Studio.
-
-1.	En la izquierda *Explorer* panel, haga clic con el botón derecho del ratón en **webapp** y seleccione **Preview Application** del menú contextual.
-    ![Preview App](img/n11-preview-app.png)
-
-2.	Seleccione la primera entrada **`Start fiori run...`** para ejecutar la aplicación localmente en un shell sandbox launchpad.
-
-    ![Start helloworld](img/n13-preview-app.png))
-
-3. Ahora debería ver la aplicación con el título de cabeceraw como *certificaciones*. No se ve ningún otro contenido, ya que no hemos añadido ningún otro elemento de interfaz de usuario al área de contenido.
-
- >Si su navegador no permite abrir una nueva pestaña, es posible que vea un mensaje en la esquina superior izquierda con un enlace donde puede permitir abrir una nueva pestaña.
-   
-   ![select flp lauchpad](img/n13-preview-app.png)
-   
-<br>
-
+ 
