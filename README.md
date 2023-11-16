@@ -11,7 +11,7 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
  
 * 2 - Crear un Mock Server
   
-   * [2.1 Crear un mock server usandp postman]().
+   * [2.1 Crear un mock server usando postman]().
      
      En caso de duda puede consultar este  [tutorial](https://www.youtube.com/watch?v=ogGpYtChY8w).
  
