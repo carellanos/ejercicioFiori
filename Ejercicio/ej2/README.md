@@ -26,8 +26,20 @@
    ![Add proxi configuration 2 ](img/n05-proxy-config-cod.png)
      
    ![Add proxi configuration ](img/n05-proxy-configuration.png)
+
+### Paso 3: Agregar configuracion de la fuente de datos y un modelo dentro del manifest.json.
    
-4. Para *Data Source and Service Selection*, seleccione **None** del menú desplegable, ya que para esta sencilla aplicación no consumirá ningún dato de un sistema backend. A continuación, haga clic en **Next**.
+1.  En la izquierda *Explorer panel*, desplegar la carpeta **webapp** seleccione el archivo **manifest.json**. Ubicar la seccion de *sap.app* y agregue la siguiente configuración de fuente de datos.
+
+     "dataSources": {
+			"certificationsRemote": {
+				"uri": "V2/Northwind/Northwind.svc",
+				"type": "OData",
+        "settings": {
+					"odataVersion": "2.0"
+				}
+			}
+		}
 
    ![Select Data Source](img/n04-select-datasource-none.png)
 
