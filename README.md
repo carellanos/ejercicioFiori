@@ -13,7 +13,7 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
   
    * [2.1 Crear un mock server usandp postman]().
      
-     [En caso de duda puede consultar este tutorial](https://www.youtube.com/watch?v=ogGpYtChY8w).
+     En caso de duda puede consultar este [tutorial](https://www.youtube.com/watch?v=ogGpYtChY8w).
  
 * 2 - Agregue componentes a la vista y funciones al controlador
   
@@ -23,4 +23,4 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
 
    * [3.1 -Configuracion](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej2/README.md).
 
-     [En caso de duda puede consultar esta documentacion](https://sapui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109).
+     En caso de duda puede consultar esta [documentacion](https://sapui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109).
