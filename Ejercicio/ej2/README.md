@@ -21,13 +21,9 @@
    
    ![Open yaml ui5](img/n04-open-ui5-yaml-file.png)
 
-2. Agregue la siguiente configuracion de proxi. Debe quedar como se observa en la imagen. 
+2. Agregue la siguiente configuracion de proxi debajo de la ultima linea *ui5Theme: sap_horizon*. Debe quedar como se observa en la imagen. 
    
-   - name: ui5-middleware-simpleproxy
-      afterMiddleware: compression
-      mountPath: /V2
-      configuration:
-        baseUri: "https://services.odata.org"
+   ![Add proxi configuration 2 ](img/n05-proxy-config-cod.png)
      
    ![Add proxi configuration ](img/n05-proxy-configuration.png)
    
