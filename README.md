@@ -9,9 +9,11 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
   
    * [1.1 - Crear una aplicación SAP Fiori utilizando SAP Business Application Studio](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej1/README.md).
  
-* 2 - Crear Servicio Mock Server 
+* 2 - Crear un Mock Server
   
-   * [2.1 Crear un servicio mock server usandp postman]().
+   * [2.1 Crear un mock server usandp postman]().
+     
+     [En caso de duda puede consultar este tutorial](https://www.youtube.com/watch?v=ogGpYtChY8w).
  
 * 2 - Agregue componentes a la vista y funciones al controlador
   
