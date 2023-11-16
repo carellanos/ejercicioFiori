@@ -1,5 +1,6 @@
 # Pasos para consumir un servicio OData remoto
 
+Se va utilizar el servicio Northwind OData disponible públicamente ubicado en https://services.odata.org/V2/Northwind/Northwind.svc/
 <br>
 
 ### Paso 1: Abra una nueva terminal en la carpeta raíz de su aplicación
