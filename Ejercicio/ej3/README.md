@@ -17,7 +17,7 @@
 
    ![Add name mock server](img3/n03-name-mock-server.png)
 
-4. Copie la URL de su mock server y guardela que sera usada mas adelante y cierre la pestaña.
+4. Copie la URL de su mock server y guardela, que sera usada mas adelante y cierre la pestaña.
 
    ![Copy url](img3/n04-url-environment.png)
 
