@@ -25,9 +25,9 @@
 
    ![Json data](img/n04-app-json-fields.png) 
 
-7. Agregue el modelo que va consumir su lista en la propiedad items. 
+7. Regrese a su vista **listaCertificados.view.xml** y agregue el modelo que estara consumiendo los datos del mock server y los campos seleccionados en el paso anterior. Obsever la imagen, se agrego el modelo a la propiedad *items* de la lista y en las propiedades de *texto* los campos que se van a mostrar. 
 
-    ![Copy url](img3/n05-select-collection.png)
+    ![Add data value](img/n05-add-value-data.png)
 
 8.  En la lista de colecciones ubique y seleccione su mock server. En la parte superior derecha de su workspace despliegue la lista de environments y seleccione
     el que corresponde a su mock server (Debe tener el mismo nombre). Nota: en mi caso use un environment que ya estaba creado.
