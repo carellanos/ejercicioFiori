@@ -11,7 +11,7 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
  
 * 2 - Crear un Mock Server
   
-   * [2.1 Crear un mock server usando postman]().
+   * [2.1 Crear un mock server usando postman](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej3/README.md).
      
      En caso de duda puede consultar este  [tutorial](https://www.youtube.com/watch?v=ogGpYtChY8w).
  
@@ -19,7 +19,7 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
   
    * [2.1 Agregar componentes de SAPUI5 SDK y funciones javascript]().
 
-* 3 - Agregue configuracion para consumir un Servicio OData remoto.
+* 3 - Opcional: Agregue la configuracion para consumir un Servicio OData remoto.
 
    * [3.1 -Configuracion](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej2/README.md).
 
