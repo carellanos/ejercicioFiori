@@ -15,7 +15,7 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
      
      En caso de duda puede consultar este  [tutorial](https://www.youtube.com/watch?v=ogGpYtChY8w).
  
-* 2 - Agregue componentes a la vista y funciones al controlador
+* 2 - Agregue componentes a la vista y configure el consumo del mock server.
   
    * [2.1 Agregar componentes de SAPUI5 SDK y funciones javascript]().
 
