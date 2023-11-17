@@ -21,34 +21,15 @@
 
    ![Add config mock server](img/n03-config-model.png)
 
-6. Seleccione los campos que se van mostrar en su UI, tomelos de su JSON data.  
+2. Seleccione los campos que se van mostrar en su UI, tomelos de su JSON data.  
 
    ![Json data](img/n04-app-json-fields.png) 
 
-7. Regrese a su vista **listaCertificados.view.xml**, agregue el modelo y los campos seleccionados en el paso anterior. Obseve la imagen se agrego el modelo a la propiedad *items* de la lista y en las propiedades de *texto* los campos que se van a mostrar. 
+3. Regrese a su vista **listaCertificados.view.xml**, agregue el modelo y los campos seleccionados en el paso anterior. Obseve la imagen se agrego el modelo a la propiedad *items* de la lista y en las propiedades de *texto* los campos que se van a mostrar. 
 
     ![Add data value](img/n05-add-value-data.png)
 
-8.  En la lista de colecciones ubique y seleccione su mock server. En la parte superior derecha de su workspace despliegue la lista de environments y seleccione
-    el que corresponde a su mock server (Debe tener el mismo nombre). Nota: en mi caso use un environment que ya estaba creado.
+4.  Si dejo el preview activo deberia ver la lista cargada con los datos de su mock server. Aqui puede observar como se ven los componentes agregados en la vista.
 
-    ![Copy url](img3/n06-select-environment.png)
-
-9. Despliegue la coleccion *Mock Server Test*, la *Get mock/certifications* y abra el ejemplo *Default*.
-
-   ![Open ejercicio](img3/n07-open-request1.png)
-
-10. En la parte superior del ejemplo cambie el nombre *Default* a 200 OK. Cambie el *Status Code* y seleccione *200 OK*. Agregue el JSON con los paramertros a usar en la aplicacion y finalmente guarde los cambios.
-
-11. Finalmente ejecute una prueba, haga click en el boton **Try**. Si todo esta bien se va abrir una pestaña en la que se puede observar el request - status 200 ok. 
-
-    ![Result test](img3/n08-request-200-ok.png)
-
-
-
-
-
-
-
-
+   ![Json data](img/n04-app-json-fields.png) 
 
