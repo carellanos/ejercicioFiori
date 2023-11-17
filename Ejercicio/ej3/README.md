@@ -18,7 +18,7 @@
 
    ![Add name mock server](img3/n03-name-mock-server.png)
 
-4. Copie la URL de su mock server y guardela, que sera usada mas adelante y cierre la pestaña.
+4. Copie la URL de su mock server y guardela, sera usada mas adelante. Cierre la pestaña.
 
    ![Copy url](img3/n04-url-environment.png)
 
@@ -31,6 +31,9 @@
 
     ![Copy url](img3/n06-select-environment.png)
 
+7. Despliegue la coleccion *Mock Server Test*, la *Get mock/certifications* y abra el ejemplo *Default*.
+
+   ![Open ejercicio](img3/n07-open-request1.png)
    
 
 ### Paso 2: Abra el archivo ui5.yaml y agregar la configuracion de proxi
