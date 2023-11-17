@@ -31,5 +31,5 @@
 
 4.  Si dejo el preview activo deberia ver la lista cargada con los datos de su mock server. Aqui puede observar como se ven los componentes agregados en la vista.
 
-   ![Json data](img/n04-app-json-fields.png) 
+   ![Json data](img/n06-preview-app.png) 
 
