@@ -20,7 +20,7 @@
 
 4. Copie la URL de su mock server y guardela, sera usada mas adelante. Cierre la pestaña.
 
-   ![Copy url](img3/n04-url-environment.png)
+   ![Copy url](img3/n04-url-environment.png) 
 
 5. En la izquierda del workspace click en *Collections*, podra visualizar la lista de todas sus colecciones.
 
