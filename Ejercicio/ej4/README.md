@@ -25,7 +25,7 @@
 
    ![Json data](img/n04-app-json-fields.png) 
 
-7. Regrese a su vista **listaCertificados.view.xml** y agregue el modelo que estara consumiendo los datos del mock server y los campos seleccionados en el paso anterior. Obsever la imagen, se agrego el modelo a la propiedad *items* de la lista y en las propiedades de *texto* los campos que se van a mostrar. 
+7. Regrese a su vista **listaCertificados.view.xml**, agregue el modelo y los campos seleccionados en el paso anterior. Obseve la imagen se agrego el modelo a la propiedad *items* de la lista y en las propiedades de *texto* los campos que se van a mostrar. 
 
     ![Add data value](img/n05-add-value-data.png)
 
