@@ -1,20 +1,26 @@
-# Pasos para consumir un servicio OData remoto
+# Pasos para crear un mock server usando postman
 
-Se va utilizar el servicio Northwind OData disponible públicamente en https://services.odata.org/V2/Northwind/Northwind.svc/
 <br>
 
-### Paso 1: Abra una nueva terminal en la carpeta raíz de su aplicación
+### Paso 1: Abra postman y cree un mock server
 
-1. En la izquierda *Explorer panel*, desplegue el menu principal. Seleccione *Terminal* haga click en *New Terminal*.
+1. En la izquierda del workspace seleccione *Mock servers*, luego click en el boton *Create mock server*.
 
-   ![Open new terminal](img/n01-open-new-terminal.png)
+   ![Create mock server](img3/n01-create-mock-server.png)
    
 
-2. Instale una nueva dependencia de desarrollo en su archivo package.json. Agregue las siguientes lineas en la *Terminal*:  **npm i -D ui5-middleware-simpleproxy** y presione la tecla enter. 
+2. Agregue una URL y seleccione el boton *Next*. 
 
-   ![Install dependency](img/n02-install-dependency-simpleproxy.png)
+   ![Add url](img3/n02-name-request.png)
 
-   ![Install dependency2](img/n03-install-dependency-simpleproxy.png)
+3. Asigne el nombre de su mock server y active el check *Save the mock server URL as an new environment variable*, esto permite crear un nuevo Environment. Seleccione el boton *Create Mock Server*
+
+   ![Add name mock server](img3/n03-name-mock-server.png)
+
+4. 
+
+
+
 
 ### Paso 2: Abra el archivo ui5.yaml y agregar la configuracion de proxi
 
