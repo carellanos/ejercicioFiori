@@ -35,27 +35,3 @@
 
    ![Open ejercicio](img3/n07-open-request1.png)
    
-
-### Paso 2: Abra el archivo ui5.yaml y agregar la configuracion de proxi
-
-1. En la izquierda *Explorer panel*, haga clic en **ui5.yaml**.
-   
-   ![Open yaml ui5](img/n04-open-ui5-yaml-file.png)
-
-2. Agregue la siguiente configuracion de proxi debajo de la ultima linea *ui5Theme: sap_horizon*.
-   
-   ![Add proxi configuration 2 ](img/n05-proxy-config-cod.png)
-     
-   ![Add proxi configuration ](img/n05-proxy-configuration.png)
-
-### Paso 3: Agregue configuracion de fuente de datos y modelo dentro del manifest.json.
-   
-1.  En la izquierda *Explorer panel*, despliegue la carpeta **webapp** seleccione el archivo **manifest.json**. Ubicar la seccion de *sap.app* y agregue la siguiente configuración de fuente de datos.
-   
-   ![Data Source](img/n08-data-source.png)
-
-   ![Data Source](img/n06-data-source-configuration.png)
-
-2. Ubicar la seccion *sapui5* y en *models* agregar el modelo con referencia a la fuente de datos.
-
-   ![Data Source](img/n07-add-a-model.png)
