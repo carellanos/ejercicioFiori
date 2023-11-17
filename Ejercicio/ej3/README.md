@@ -34,4 +34,18 @@
 7. Despliegue la coleccion *Mock Server Test*, la *Get mock/certifications* y abra el ejemplo *Default*.
 
    ![Open ejercicio](img3/n07-open-request1.png)
-   
+
+8. En la parte superior del ejemplo cambie el nombre *Default* a 200 OK. Cambie el *Status Code* y seleccione *200 OK*. Agregue el JSON con los paramertros a usar en la aplicacion y finalmente guarde los cambios.
+
+9. Ejecute una prueba, haga click en el boton **Try**. Si todo esta bien se va abrir una pestaña en la que se puede observar el request status 200 ok.
+
+    ![Result test](img3/n08-request-200-ok.png)
+
+
+
+
+
+
+
+
+
