@@ -18,9 +18,13 @@ Este ejercicio se ejecuta en un entorno de prueba de SAP BTP. Primero debe regis
 * 3 - Agregue componentes a la vista, configure un modelo y consuma data del mock server.
   
    * [3.1 Agregar componentes de SAPUI5 SDK - configure y consuma data del mock server](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej4/README.md).
+ 
+* 4 - Agregue funcionalidad a su aplicacion.
 
-* 4 - Opcional: Agregue la configuracion para consumir un Servicio OData remoto.
+  * [4.1 Agregar funcionalidad a los componentes]().
 
-   * [4.1 -Configuracion](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej2/README.md).
+* 5 - Opcional: Agregue la configuracion para consumir un Servicio OData remoto.
+
+   * [5.1 -Configuracion](https://github.com/carellanos/ejercicioFiori/blob/main/Ejercicio/ej2/README.md).
 
      En caso de duda puede consultar esta [documentacion](https://sapui5.hana.ondemand.com/#/topic/44062441f3bd4c67a4f665ae362d1109).
